@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Lingo Whisper — traducción inglés-español, español-inglés, corrección de estilo y corrección tipográfica en español.">
+  <title>Lingo Whisper | Traducción y corrección</title>
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Lingo Whisper, inicio">
+      <img src="logo.svg" alt="Lingo Whisper">
+      <span class="brand-text">
+        <strong>Lingo <em>Whisper</em></strong>
+        <small data-i18n="slogan">Tus palabras también tienen voz.</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="#inicio" data-i18n="navHome">Inicio</a>
+      <a href="#servicios" data-i18n="navServices">Servicios</a>
+      <a href="#idiomas" data-i18n="navLanguages">Idiomas</a>
+      <a href="#contacto" data-i18n="navContact">Contacto</a>
+    </nav>
+
+    <div class="language-switcher">
+      <button class="lang-btn active" data-lang="es">🇪🇸 ES</button>
+      <span>⇄</span>
+      <button class="lang-btn" data-lang="en">🇬🇧 EN</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow" data-i18n="eyebrow">TRADUCCIÓN · EDICIÓN · PRECISIÓN</p>
+        <h1>Lingo <span>Whisper</span></h1>
+        <p class="hero-slogan" data-i18n="slogan">Tus palabras también tienen voz.</p>
+        <p class="hero-copy" data-i18n="heroCopy">Traducción profesional y corrección de textos en español e inglés, para que tus ideas lleguen más lejos.</p>
+        <a class="primary-btn" href="#contacto" data-i18n="heroButton">Hablemos de tu proyecto</a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="paper"></div>
+        <div class="gold-line"></div>
+        <div class="speech">
+          <span>文</span><span>A</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="servicesEyebrow">LO QUE HACEMOS</p>
+        <h2 data-i18n="servicesTitle">Nuestros Servicios</h2>
+        <span class="divider"></span>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="service-icon">A<span>⇄</span>文</div>
+          <h3 data-i18n="service1Title">Traducción<br>Inglés - Español</h3>
+          <p data-i18n="service1Text">Traducciones precisas y naturales para todo tipo de textos.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">文<span>⇄</span>A</div>
+          <h3 data-i18n="service2Title">Traducción<br>Español - Inglés</h3>
+          <p data-i18n="service2Text">Tu mensaje, en el idioma que necesitas.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">▤<span>✎</span></div>
+          <h3 data-i18n="service3Title">Corrección de estilo<br>de textos en español</h3>
+          <p data-i18n="service3Text">Mejora la claridad, coherencia y fluidez de tus escritos.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">Aa<span>✓</span></div>
+          <h3 data-i18n="service4Title">Corrección tipográfica<br>de textos en español</h3>
+          <p data-i18n="service4Text">Sin errores, con precisión y profesionalismo.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="idiomas" class="languages-section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="languagesEyebrow">IDIOMAS</p>
+        <h2 data-i18n="languagesTitle">Dos idiomas, una misma voz</h2>
+        <span class="divider"></span>
+      </div>
+      <div class="language-cards">
+        <div class="language-card">
+          <div class="flag">🇪🇸</div>
+          <h3>Español</h3>
+          <p data-i18n="spanishText">Corrección de estilo y corrección tipográfica.</p>
+        </div>
+        <div class="language-arrow">⇄</div>
+        <div class="language-card">
+          <div class="flag">🇬🇧</div>
+          <h3>English</h3>
+          <p data-i18n="englishText">Translation to and from Spanish.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="promise">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="promiseEyebrow">NUESTRO COMPROMISO</p>
+        <h2 data-i18n="promiseTitle">Cada palabra cuenta</h2>
+        <span class="divider"></span>
+      </div>
+      <div class="promise-grid">
+        <div><b>✓</b><span data-i18n="promise1">Calidad y precisión</span></div>
+        <div><b>◷</b><span data-i18n="promise2">Compromiso con los plazos</span></div>
+        <div><b>♡</b><span data-i18n="promise3">Atención personalizada</span></div>
+        <div><b>◇</b><span data-i18n="promise4">Tu confianza es nuestra prioridad</span></div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact-section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="contactEyebrow">CONTACTO</p>
+        <h2 data-i18n="contactTitle">¿Tienes un proyecto en mente?</h2>
+        <p data-i18n="contactText">Escríbenos. Será un placer ayudarte.</p>
+        <span class="divider"></span>
+      </div>
+      <div class="contact-buttons">
+        <a class="contact-btn email" href="mailto:lingowhispertranslations@gmail.com?subject=Lingo%20Whisper%20-%20Consulta">
+          <span>✉</span><span data-i18n="emailButton">Por correo electrónico</span>
+        </a>
+        <a class="contact-btn whatsapp" href="https://wa.me/5352997293" target="_blank" rel="noopener">
+          <span>◉</span><span data-i18n="whatsappButton">Por WhatsApp</span>
+        </a>
+      </div>
+      <p class="email-address">lingowhispertranslations@gmail.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">
+      <img src="logo.svg" alt="">
+      <span>Lingo Whisper</span>
+    </div>
+    <span>© <span id="year"></span> Lingo Whisper · <em data-i18n="slogan">Tus palabras también tienen voz.</em></span>
+    <div class="footer-lang">
+      <button class="lang-btn active" data-lang="es">🇪🇸 ES</button>
+      <span>⇄</span>
+      <button class="lang-btn" data-lang="en">🇬🇧 EN</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
