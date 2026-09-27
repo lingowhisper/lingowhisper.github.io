@@ -186,3 +186,11 @@ footer .lang-btn { color:#fff; }
   .promise-grid { grid-template-columns:1fr 1fr; }
   footer { flex-direction:column; text-align:center; }
 }
+
+/* Keep section headings visible below the sticky navigation. */
+html { scroll-padding-top: 108px; }
+section[id] { scroll-margin-top: 108px; }
+@media (max-width: 680px) {
+  html { scroll-padding-top: 88px; }
+  section[id] { scroll-margin-top: 88px; }
+}
